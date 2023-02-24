@@ -1,13 +1,40 @@
-## Descrição
-Este projeto é uma aplicação web construída usando o framework Nest.js para o lado do servidor e o postgreSQL como banco de dados, e Prisma como ORM para gerenciamento do banco. Ele também utiliza o .env para gerenciar configurações sensíveis, e o Swagger para documentação e teste das rotas da API.
+## Desafio para o processo seletivo SHARENERGY 2023/01
+O desafio consistia em criar uma aplicação que fazia uma requisição para uma API externa, trazendo os dados de pessoas aleatórias, outra API de status code e outra API de imagens de cães. Em seguida, criar uma tabela de cadastro de usuários com as funções de um CRUD.
 
-## Instalação
-Clone este repositório. Instale as dependências usando o comando npm install. Configure o arquivo .env com as suas configurações de banco de dados. Inicie o servidor de desenvolvimento usando o comando npm run start:dev.
+## Front-End
+ - Nextjs
+ - css modules
+ - ContexAp
 
-Este comando iniciará o servidor de desenvolvimento e abrirá o projeto em http://localhost:7777 no navegador.
+## Backend
+ - Nestjs
+ - typescript
+ - PostgreSQL
+ - Bcrypt
+ - JSON Web Token
 
-## Utilizando o Prisma
-Para gerar os arquivos de migração do banco de dados, execute o comando npx prisma migrate dev init
 
-## Link para o Swagger
-http://localhost:7777/api
+## Como rodar a aplicação frontend
+Clone o repositório e execute o seguinte comando no diretório do projeto:
+
+$ npm install
+
+Este comando instalará todas as dependências do projeto e as baixará para a pasta node_modules.
+
+## Executando o projeto
+Depois de instalar as dependências, você pode iniciar o projeto com o seguinte comando:
+
+$ npm start
+
+Este comando iniciará o servidor de desenvolvimento e abrirá o projeto em http://localhost:3000 no navegador.
+
+## Como rodar a aplicação banckend
+Este projeto utiliza um arquivo .env para armazenar configurações sensíveis, como credenciais de banco de dados e chaves de API. O arquivo .env deve ser criado na raiz do projeto e seguir o formato:
+
+JWT_SECRET= DATABASE_URL=
+
+Depois de instalar as dependências e configurar o arquivo .env, você pode iniciar o projeto com o seguinte comando:
+
+$ npm run start:dev
+
+Este comando iniciará o servidor e o projeto estará disponível em http://localhost:7777 no navegador.
