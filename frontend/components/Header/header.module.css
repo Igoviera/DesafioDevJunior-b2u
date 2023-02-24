@@ -1,0 +1,36 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;   
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.addCar{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.addCar:hover{
+    border-bottom: solid 1px white;
+}
+
+.entrar:hover {
+    border-bottom: solid 1px white;
+}
+
+.sair{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sair:hover{
+    border-bottom: solid 1px white;
+}
+

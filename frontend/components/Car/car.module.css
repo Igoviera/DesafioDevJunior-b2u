@@ -1,0 +1,43 @@
+.containerCar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    min-width: 300px;
+    gap: 0.5rem;
+    max-height:auto;
+    padding: 0.8rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 6px 7px 5px -1px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 6px 7px 5px -1px rgba(0, 0, 0, 0.26);
+    box-shadow: 6px 7px 5px -1px rgba(0, 0, 0, 0.26);
+}
+
+.containerDescricao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.containerItem {
+    display: flex;
+    flex-direction: column;  
+}
+
+.containerItem p {
+    color: rgb(95, 95, 95);
+    font-size: 1.3rem;
+    word-wrap: break-word;
+}
+
+.containerBtn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.containerBtn button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}

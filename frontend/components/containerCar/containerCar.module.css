@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container input {
+    min-width: 300px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.containerCar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 1rem;
+    padding: 10px;
+    margin-top: 5rem;
+}

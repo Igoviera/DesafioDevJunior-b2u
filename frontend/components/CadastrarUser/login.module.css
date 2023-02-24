@@ -1,0 +1,62 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+}
+
+.tituloLogin{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    margin: auto;
+}
+.form{
+    max-width: 500px;
+}
+.form div {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 7px 5px -1px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 6px 7px 5px -1px rgba(0, 0, 0, 0.26);
+    box-shadow: 6px 7px 5px -1px rgba(0, 0, 0, 0.26);
+}
+
+.form label {
+    margin-top: 20px;
+}
+
+.form div input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    font-size: 18px;
+}
+
+.form div button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.msgError{
+    color: red;
+    text-align: end;
+    font-size: 15px;
+    margin-top: 10px;
+}
