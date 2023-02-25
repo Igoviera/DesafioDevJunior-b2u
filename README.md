@@ -1,5 +1,5 @@
-## Desafio para o processo seletivo SHARENERGY 2023/01
-O desafio consistia em criar uma aplicação que fazia uma requisição para uma API externa, trazendo os dados de pessoas aleatórias, outra API de status code e outra API de imagens de cães. Em seguida, criar uma tabela de cadastro de usuários com as funções de um CRUD.
+## Desafio para o processo seletivo
+O desafio consistia em criar uma aplicação de loja de veiculos, com as seguintes funcionalidade, login, cadastrar, editar, atualizar e deletar um veiculo. 
 
 ## Front-End
  - Nextjs
